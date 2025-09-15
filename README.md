@@ -1,5 +1,7 @@
 # Enterprise Support Ticket Resolution PoC
 
+Authors: David López & Juan Cocco
+
 A minimal proof-of-concept for an autonomous enterprise support ticket resolution system using multi-agent architecture with LangChain and Gemini API.
 
 ## Overview
