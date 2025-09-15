@@ -1,0 +1,21 @@
+# Core
+python-dotenv>=1.0.0
+
+# LLM (Gemini)
+langchain>=0.1.0
+google-generativeai>=0.3.0
+
+# Vector search
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Web framework (optional Phase 3+ if you expose API)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Config management (optional, safer env handling)
+pydantic-settings>=2.2.1
+
+# Testing
+pytest>=8.0.0
+

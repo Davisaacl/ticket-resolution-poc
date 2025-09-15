@@ -1,0 +1,56 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Byte-compiled / cache
+*.egg-info/
+.eggs/
+*.egg
+
+# Build / packaging
+build/
+dist/
+pip-wheel-metadata/
+
+# -------------------------
+# Environment & Secrets
+# -------------------------
+.env
+.env.*
+*.env
+
+# -------------------------
+# Project Artifacts
+# -------------------------
+# Vector store files (FAISS index + metadata)
+kb.index
+kb_meta.json
+
+# Local ticket DB (if generated)
+tickets.db.json
+
+# Logs
+*.log
+
+# -------------------------
+# IDE & Editor Settings
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db

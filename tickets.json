@@ -1,0 +1,23 @@
+[
+  {
+    "id": "TICKET-001",
+    "title": "Database connection issues",
+    "description": "Users are unable to connect to the database. Error: Connection timeout after 30 seconds.",
+    "priority": "high",
+    "customer_email": "user@company.com"
+  },
+  {
+    "id": "TICKET-002",
+    "title": "API latency spike",
+    "description": "Customers report API requests taking over 5s. Error rates also climbing.",
+    "priority": "medium",
+    "customer_email": "api-team@company.com"
+  },
+  {
+    "id": "TICKET-003",
+    "title": "Unknown service crash",
+    "description": "Service XYZ randomly crashes without logs or alerts. No runbooks available.",
+    "priority": "high",
+    "customer_email": "ops@company.com"
+  }
+]
